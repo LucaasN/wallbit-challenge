@@ -14,9 +14,7 @@ export const ProductsProvider = ({
 }: {
   children: React.ReactNode;
 }) => {
-  const initialValue = JSON.parse(
-    localStorage.getItem("products") || "[]"
-  ) as Product[];
+  const initialValue = JSON.parse(localStorage.getItem("products") || "[]") as Product[];
   const [products, setProducs] = useState<Product[]>(initialValue);
   const [totalPrice, setTotalPrice] = useState(0);
   const [totalQuantity, setTotalQuantity] = useState(0);
@@ -56,7 +54,7 @@ export const ProductsProvider = ({
     }
 
     localStorage.setItem("products", JSON.stringify(products));
-  }, [products]);
+  }, [products, createdDate]);
 
   return (
     <ProductsContext.Provider

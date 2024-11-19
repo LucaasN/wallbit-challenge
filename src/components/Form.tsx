@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { showToast } from "../utils/toast.js";
+import { showToast } from "../utils/toast";
 import { ProductsContext } from "../context/ProductsContext";
 
 export const Form: React.FC = () => {

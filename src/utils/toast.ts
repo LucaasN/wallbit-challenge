@@ -1,6 +1,8 @@
 import { toast, Slide } from "react-toastify";
 
-export const showToast = (type, message) => {
+type ToastType = "success" | "error";
+
+export const showToast = (type:ToastType, message:string) => {
     toast[type](message, {
       position: "bottom-right",
       autoClose: 3000,

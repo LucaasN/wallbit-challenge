@@ -1,17 +1,9 @@
 import { useContext } from "react";
 import { ProductsContext } from "../context/ProductsContext";
 
-interface Product {
-    id: number
-    title: string
-    price: number
-    image: string
-    quantity: number
-  }
-
 export const Products: React.FC = () => {
   
-  const { products, deleteProduct } = useContext(ProductsContext) as { products: Product[] };
+  const { products, deleteProduct } = useContext(ProductsContext);
   
   return (
     <>
