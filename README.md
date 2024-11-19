@@ -7,7 +7,7 @@
 - **Tailwind**
 - **Context API en conjunto con LocalStorage**
 - **React Tostify**
-- ** Fake Store API (https://fakestoreapi.com/)**
+- **Fake Store API (https://fakestoreapi.com/)**
 
 
 ## Clonar y ejecutar el proyecto
@@ -15,9 +15,9 @@
 Para clonar y ejecutar el proyecto sigue estos pasos:
 
 1. Clonar el repositorio:
-   `git clone https://github.com/LucaasN/ApoloWebPruebaTecnica.git`
+   `git clone https://github.com/LucaasN/wallbit-challenge.git`
 2. Navegar a la carpeta del proyecto:
-   `cd ApoloWebPruebaTecnica`
+   `cd wallbit-challenge`
 3. Instalar las dependencias:
    `npm install` o `npm i`
 6. Ejecutar el proyecto:
