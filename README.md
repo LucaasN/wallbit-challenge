@@ -1,4 +1,4 @@
-# Challenge Apolo Web Prueba Tecnica
+# Wallbit Junior Frontend Challenge
 
 ## Tecnologias usadas:
 
